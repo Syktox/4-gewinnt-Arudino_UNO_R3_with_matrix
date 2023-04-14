@@ -87,6 +87,8 @@ void resetMatrix() {
 }
 void JoystickPosition() {
   // todo 0 wert ermitteln und dann die Logik programmieren
+  // 0 Wert ist 511 und 512
+  
   joyX_1 = analogRead(A0);
   joyX_2 = analogRead(A1);
 
